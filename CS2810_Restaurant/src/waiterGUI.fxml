@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@waiter_style_sheet.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.team_project.group11.WaiterGUI">
+   <children>
+      <Button fx:id="refreshButton" layoutX="531.0" layoutY="4.0" mnemonicParsing="false" onAction="#resfreshPressed" prefHeight="25.0" text="Refresh" />
+      <Button fx:id="selectOrderButton" layoutX="50.0" layoutY="348.0" mnemonicParsing="false" onAction="#selectPressed" text="View Order" />
+      <ListView fx:id="confirmedList" layoutX="41.0" layoutY="64.0" prefHeight="273.0" prefWidth="105.0" />
+      <Label layoutX="70.0" layoutY="40.0" text="Orders:" underline="true">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <ListView fx:id="callList" layoutX="535.0" layoutY="64.0" prefHeight="273.0" prefWidth="50.0" />
+      <Label layoutX="522.0" layoutY="30.0" prefHeight="39.0" prefWidth="80.0" text="Table calls:" textAlignment="CENTER" underline="true" wrapText="true">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="removeCallButton" layoutX="493.0" layoutY="347.0" mnemonicParsing="false" onAction="#removePressed" prefHeight="25.0" prefWidth="87.0" text="Remove call" />
+      <ListView fx:id="readyList" layoutX="164.0" layoutY="64.0" prefHeight="273.0" prefWidth="223.0" />
+      <Label layoutX="255.0" layoutY="40.0" text="Ready:" underline="true">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="menuButton" layoutX="290.0" layoutY="347.0" mnemonicParsing="false" onAction="#menuButtonPressed" prefHeight="25.0" prefWidth="124.0" stylesheets="@waiter_style_sheet.css" text="Edit menu" />
+      <ListView fx:id="finishedList" layoutX="407.0" layoutY="64.0" prefHeight="273.0" prefWidth="105.0" />
+      <Label layoutX="434.0" layoutY="40.0" text="Finished:" underline="true">
+         <font>
+            <Font name="Arial Bold" size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="finishOrderButton" layoutX="143.0" layoutY="348.0" mnemonicParsing="false" onAction="#selectFinishedPressed" text="View Finished Order" />
+      <Button fx:id="tableButton" layoutX="421.0" layoutY="347.0" mnemonicParsing="false" onAction="#tablePressed" prefHeight="25.0" prefWidth="55.0" text="Tables" />
+      <Button fx:id="backButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#backPressed" text="Log out" />
+   </children>
+</AnchorPane>

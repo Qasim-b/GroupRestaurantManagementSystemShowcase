@@ -1,0 +1,25 @@
+.background{
+	-fx-background-color: "#FFD601";
+}
+.title{
+	-fx-text-fill: "#FF4500"; 	
+	-fx-font-family: "Brush Script M7";
+}
+.subtitles{
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}
+.text{
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}
+.buttons{
+	-fx-background-color: "#D2B48C";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}
+.boxes{
+	-fx-background-color: "#FAF0E6";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}

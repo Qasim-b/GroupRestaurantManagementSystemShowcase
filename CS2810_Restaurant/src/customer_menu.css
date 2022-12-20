@@ -1,0 +1,29 @@
+/*Author @Francesca Coss */
+/* This CSS class sets the styling for all customer menu related scenes. */
+
+/* CSS class that sets the background image or colour accordingly. */
+.background{
+	-fx-background-image: url("./CS2810_Restaurant/src/com.github.team_project.group11/src/Customer GUI Background.jpg");
+	-fx-background-size: 100% 100%;
+	-fx-background-color: "#c5f5f5";
+}
+
+/* CSS class that sets the font type and colour. */
+.font{
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial Bold";
+}
+
+/* CSS class that sets the background colour, font type and colour for buttons. */
+.button{
+	-fx-background-color: "rgb(255,0,0)";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial Bold";
+}
+
+/* CSS class that sets the background colour, font type and colour for the boxes providing database information. */
+.listView{
+	-fx-background-color: "#FFFFFF";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial Bold";
+}

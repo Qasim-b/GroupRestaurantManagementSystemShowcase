@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.team_project.group11.WaiterGUI">
+   <children>
+      <Button fx:id="refreshButton" layoutX="531.0" layoutY="4.0" mnemonicParsing="false" onAction="#resfreshPressed" prefHeight="25.0" prefWidth="62.0" text="Refresh" />
+      <ListView fx:id="UnconfirmedList" layoutX="21.0" layoutY="47.0" prefHeight="273.0" prefWidth="91.0" />
+      <Label layoutX="7.0" layoutY="30.0" text="Unconfirmed Orders:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="selectOrderText" layoutX="43.0" layoutY="347.0" prefHeight="25.0" prefWidth="91.0" />
+      <Button fx:id="selectOrderButton" layoutX="145.0" layoutY="347.0" mnemonicParsing="false" onAction="#selectPressed" text="Select order" />
+      <Label layoutX="43.0" layoutY="330.0" text="Order ID:" />
+      <ListView fx:id="confirmedList" layoutX="139.0" layoutY="47.0" prefHeight="273.0" prefWidth="91.0" />
+      <Label layoutX="132.0" layoutY="30.0" text="Confirmed Orders:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ListView fx:id="callList" layoutX="478.0" layoutY="47.0" prefHeight="273.0" prefWidth="105.0" />
+      <Label layoutX="500.0" layoutY="30.0" text="Table calls:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="removeCallButton" layoutX="491.0" layoutY="326.0" mnemonicParsing="false" onAction="#removePressed" text="Remove call" />
+      <ListView fx:id="readyList" layoutX="254.0" layoutY="47.0" prefHeight="273.0" prefWidth="91.0" />
+      <Label layoutX="281.0" layoutY="30.0" text="Ready:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ListView fx:id="finishedList" layoutX="372.0" layoutY="47.0" prefHeight="273.0" prefWidth="91.0" />
+      <Label layoutX="393.0" layoutY="30.0" text="Finished:" underline="true">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="finishedButton" layoutX="290.0" layoutY="347.0" mnemonicParsing="false" onAction="#finishedPressed" text="View finished orders" />
+   </children>
+   <stylesheets>
+   	  <URL value = "@waiter_style_sheet.css"/>
+   </stylesheets>
+</AnchorPane>

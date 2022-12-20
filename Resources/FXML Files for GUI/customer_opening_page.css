@@ -1,0 +1,12 @@
+.background{
+	-fx-background-color: "#FFD601";
+}
+.label{
+	-fx-text-fill: "#FF4500";
+	-fx-font-family: "Curlz MT";
+}
+.button{
+	-fx-background-color: "#FF4500";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Bradley Hand ITC";
+}

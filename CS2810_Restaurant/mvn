@@ -1,0 +1,4 @@
+mvn exec:java -Dexec.mainClass=com.github.team_project.group11.CustomerDriver
+mvn exec:java -Dexec.mainClass=com.github.team_project.group11.WaiterDriver
+mvn exec:java -Dexec.mainClass=com.github.team_project.group11.KitchenGUIDriver
+mvn exec:java -Dexec.mainClass=com.github.team_project.group11.OaxacaDriver

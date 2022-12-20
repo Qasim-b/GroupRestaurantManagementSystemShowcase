@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="background" stylesheets="@customer_menu.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.github.team_project.group11.CustomerEditOrder">
+   <children>
+      <SplitPane prefHeight="400.0" prefWidth="399.0">
+         <items>
+            <AnchorPane fx:id="dishPlane" prefHeight="398.0" prefWidth="336.0" styleClass="background" stylesheets="@customer_menu.css">
+               <children>
+                  <ImageView fitHeight="398.0" fitWidth="398.0" opacity="0.5">
+                     <image>
+                        <Image url="@Oaxaca%20start%20page.jpeg" />
+                     </image>
+                  </ImageView>
+                  <ListView fx:id="orderList" layoutY="83.0" prefHeight="315.0" prefWidth="398.0" />
+                  <Label alignment="CENTER" layoutX="15.0" layoutY="12.0" prefHeight="50.0" prefWidth="166.0" text="ORDER" textAlignment="CENTER">
+                     <font>
+                        <Font name="Arial Bold" size="38.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+      <SplitPane layoutX="400.0" prefHeight="400.0" prefWidth="200.0">
+         <items>
+            <AnchorPane fx:id="orderPlane" prefHeight="200.0" prefWidth="200.0" styleClass="background" stylesheets="@customer_menu.css">
+               <children>
+                  <Button fx:id="clearOrderButton" alignment="CENTER" layoutX="28.0" layoutY="56.0" mnemonicParsing="false" onAction="#clearOrder" prefHeight="26.0" prefWidth="142.0" stylesheets="@customer_menu.css" text="Clear order" />
+                  <Button fx:id="menuButton" alignment="CENTER" layoutX="28.0" layoutY="357.0" mnemonicParsing="false" onAction="#menuButton" prefHeight="26.0" prefWidth="142.0" stylesheets="@customer_menu.css" text="Go back to menu" />
+                  <Button fx:id="deleteItemButton" alignment="CENTER" layoutX="28.0" layoutY="21.0" mnemonicParsing="false" onAction="#deleteItem" prefHeight="26.0" stylesheets="@customer_menu.css" text="Delete selected item" />
+               </children>
+            </AnchorPane>
+         </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

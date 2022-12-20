@@ -1,0 +1,21 @@
+.background{
+	-fx-background-color: "#FFD601";
+}
+.label{
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}
+.textField{
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}
+.button{
+	-fx-background-color: "#FF4500";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}
+.listView{
+	-fx-background-color: "#F5EFE7";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial";
+}

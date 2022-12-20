@@ -1,0 +1,28 @@
+/*author @FrancescaCoss */
+/* This CSS class sets the styling for Graphical User Interface. */
+
+
+/* CSS class that sets the background colour . */
+.background{
+	-fx-background-color: "#c5f5f5";
+}
+
+/* CSS class that sets the font type and colour for all text on the screen. */
+.text{
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial Bold";
+}
+
+/* CSS class that sets the background colour, font type and colour for buttons. */
+.button{
+	-fx-background-color: "rgb(255,0,0)";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial Bold";
+}
+
+/* CSS class that sets the background colour, font type and colour for the boxes providing database information. */
+.listView{
+	-fx-background-color: "#FFFFFF";
+	-fx-text-fill: "#000000";
+	-fx-font-family: "Arial Bold";
+}
